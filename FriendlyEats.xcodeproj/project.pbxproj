@@ -29,7 +29,6 @@
 		8D9BBC381EE2200900194E9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D9BBC371EE2200900194E9A /* Assets.xcassets */; };
 		8D9BBC3B1EE2200900194E9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D9BBC391EE2200900194E9A /* LaunchScreen.storyboard */; };
 		8D9BBC461EE2200900194E9A /* FriendlyEatsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9BBC451EE2200900194E9A /* FriendlyEatsTests.swift */; };
-		8DCC05D12245C0FF002151C9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8DCC05D02245C0FF002151C9 /* GoogleService-Info.plist */; };
 		8DD9ACDA1F7B166900C2DD24 /* pizza-monster.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DD9ACD91F7B166900C2DD24 /* pizza-monster.png */; };
 		8DDCD36220325B8F00CFBF60 /* MyRestaurantsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDCD36120325B8F00CFBF60 /* MyRestaurantsViewController.swift */; };
 		8DDCD364203261A500CFBF60 /* RestaurantTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDCD363203261A500CFBF60 /* RestaurantTableViewDataSource.swift */; };
@@ -38,7 +37,7 @@
 		8DF1E3151EE72C4600192CDE /* LocalCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF1E3141EE72C4600192CDE /* LocalCollection.swift */; };
 		8DF77E1A1EEB45E500CB2330 /* RestaurantDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF77E191EEB45E500CB2330 /* RestaurantDetailViewController.swift */; };
 		8DF77E1C1EEB645100CB2330 /* StarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF77E1B1EEB645100CB2330 /* StarsView.swift */; };
-		CCDBA32C2250B0480064FABB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CCDBA32B2250B0480064FABB /* GoogleService-Info.plist */; };
+		CCDBA32D2250B57B0064FABB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CCDBA32B2250B0480064FABB /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -322,12 +321,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCDBA32D2250B57B0064FABB /* GoogleService-Info.plist in Resources */,
 				8D9BBC3B1EE2200900194E9A /* LaunchScreen.storyboard in Resources */,
 				8D9BBC381EE2200900194E9A /* Assets.xcassets in Resources */,
-				8DCC05D12245C0FF002151C9 /* GoogleService-Info.plist in Resources */,
 				8D9BBC361EE2200900194E9A /* Main.storyboard in Resources */,
 				8DD9ACDA1F7B166900C2DD24 /* pizza-monster.png in Resources */,
-				CCDBA32C2250B0480064FABB /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
