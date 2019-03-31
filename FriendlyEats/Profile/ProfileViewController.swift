@@ -94,6 +94,14 @@ class ProfileViewController: UIViewController {
         if let firebaseUser = firebaseUser {
             let user = User(user: firebaseUser)
             self.user = user
+            Firestore.firestore()
+                .collection("users")
+                .document(user.userID)
+                .setData(user.documentData) { error in
+                    if let error = error {
+                        print("Error writing user to Firestore: \(error)")
+                    }
+            }
         } else {
             user = nil
         }
